@@ -10,8 +10,28 @@ The project aims to answer 2 questions about NYC's payroll data:
 [_Diagram made using Excalidraw_](https://excalidraw.com/) 
 
 # Process 
-1. Python extracts the data from the API and converts it from JSON to CSV
+1. Python extracts the data from the API (JSON) and converts it to a CSV (`data.csv`)
+2. In the Snowflake UI, create the database, schema, virtual warehouse, and table (refer to `ddl_snowflake_ui.sql`)
+3. In Snowflake, upload `data.csv` using the UI (select database, schema, table, and create file format)
+4. Use SQL to transform data in Snowflake
+5. Visualize with Snowflake's charts function
 
-# Data Visualization 
+# Data Visualization  
+**Ranking Boroughs by Pay**
+
 ![alt text](https://github.com/rojerdu-dev/Payroll-ELT/blob/main/Diagrams/Total_Comp_by_Borough.png) 
-These are the boroughs ranked by total pay
+
+
+
+**Top 5 Job Titles by Compensation** 
+
+![alt_text](https://github.com/rojerdu-dev/Payroll-ELT/blob/main/Diagrams/top_five_chart.png)
+
+_This chart didn't come out too neat in Snowflake_ 
+
+**Screenshot of Results of Final Query - Job Titles by Aggregate Total Comp** 
+
+![alt_text](https://github.com/rojerdu-dev/Payroll-ELT/blob/main/Screenshots/Job%20Title%20Rankings.png) 
+
+
+
