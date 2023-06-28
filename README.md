@@ -7,6 +7,11 @@ The project aims to answer 2 questions about NYC's payroll data:
 
 # Architecture Diagram 
 ![Alt text](https://github.com/rojerdu-dev/Payroll-ELT/blob/main/Diagrams/ELT%20Diagram.png)
-[_Diagram made using Excalidraw_](https://excalidraw.com/)
+[_Diagram made using Excalidraw_](https://excalidraw.com/) 
 
+# Process 
+1. Python extracts the data from the API and converts it from JSON to CSV
 
+# Data Visualization 
+![alt text](https://github.com/rojerdu-dev/Payroll-ELT/blob/main/Diagrams/Total_Comp_by_Borough.png) 
+These are the boroughs ranked by total pay
