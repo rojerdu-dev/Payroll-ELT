@@ -35,3 +35,12 @@ _This chart didn't come out too neat in Snowflake_
 
 
 
+# Conclusion
+The findings of this project are that: 
+1. More of NYC's payroll budget goes to Manhattan than any other borough
+2. After aggregating total compensation by job title, the top 5 jobs that NYC spends the most money on include: 
+  * Child Protective Specialist
+  * Child Protective Specialist Supervisor
+  * Youth Development Specialist
+  * Director of Field Operations
+  * Administrative Director of Social Services 
